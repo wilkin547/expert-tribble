@@ -1,0 +1,19 @@
+canvas{
+    background-color: #F6E1C3;
+}
+body{
+    background-color: #d17a00;
+}
+.Information{
+    display: grid;
+    flex-direction: column;
+    grid-row: 10px 10;
+    align-content: flex-start;
+    justify-content: start;
+    justify-items: start;
+}
+.Botton{
+    margin: 10px;
+    border-radius: 14px;
+    border-color: transparent;
+}
