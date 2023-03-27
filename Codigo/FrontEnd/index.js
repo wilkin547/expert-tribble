@@ -26,6 +26,7 @@ function agregarComidaEnCola(comida) {
       this.Imagen = Imagen;
     }
   }
+  const contenedorBotonesEnviarComidas = document.getElementById("contenedorBotonesEnviarComidas")
 
   class Plate {
     constructor(InformationPlate,name) {  
@@ -45,6 +46,9 @@ function agregarComidaEnCola(comida) {
                 <span id="Description">${InformationPlate.description}</span>
             </div>
         </button>`
+
+          contenedorBotonesEnviarComidas.appendChild(botton)
+
         }
     }
   
@@ -54,6 +58,7 @@ let arrozBlanco_PolloHorneado_Habichuela_Ensalada = new Plate(new InformationPla
 
 
 ListaDePlatos.push(arrozBlanco_PolloHorneado_Habichuela_Ensalada);
+
 console.log(arrozBlanco_PolloHorneado_Habichuela_Ensalada);
  
 
